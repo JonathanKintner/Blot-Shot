@@ -6,7 +6,7 @@ public class Move/*Move entity given a direction*/: Command
 {
     Vector3 _direction;
 
-    public Move(IEntity entity, Vector3 direction) : base(entity)
+    public Move(IEntity entity, Vector3 direction) : base(entity)//direction = target trasnform - entity transform
     {
         _direction = direction;
     }
